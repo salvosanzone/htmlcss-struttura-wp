@@ -44,12 +44,15 @@ main .section-bottom .top{
   background-color: #abcfe7;
 }
 
+.left, .center, .right{
+  float: left;
+}
+
 main .section-bottom .left{
   width: 19%;
   height: 570px;
   margin-right: 2%;
   background-color: #abcfe7;
-  float: left;
 }
 
 main .section-bottom .center{
@@ -57,14 +60,12 @@ main .section-bottom .center{
   height: 570px;
   margin-right: 2%;
   background-color: #abcfe7;
-  float: left;
 }
 
 main .section-bottom .right{
   width: 19%;
   height: 570px;
   background-color: #abcfe7;
-  float: left;
 }
 
 /* chiusura */
