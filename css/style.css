@@ -40,7 +40,6 @@ header, footer, .section-top, .section-bottom{
 main .section-bottom .top{
   width: 100%;
   height: 90px;
-  margin-bottom: 20px;
   background-color: #abcfe7;
 }
 
@@ -49,23 +48,28 @@ main .section-bottom .top{
 }
 
 main .section-bottom .left{
-  width: 19%;
+  width: 20%;
   height: 570px;
   margin-right: 2%;
   background-color: #abcfe7;
+  margin: 2% 0 2% 0;
+
 }
 
 main .section-bottom .center{
-  width: 58%;
+  width: 56%;
   height: 570px;
   margin-right: 2%;
   background-color: #abcfe7;
+  margin: 2%;
 }
 
 main .section-bottom .right{
-  width: 19%;
+  width: 20%;
   height: 570px;
   background-color: #abcfe7;
+  margin: 2% 0 2% 0;
+
 }
 
 /* chiusura */
