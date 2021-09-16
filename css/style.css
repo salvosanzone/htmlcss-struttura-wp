@@ -10,21 +10,27 @@
   clear: both;
 }
 
+header{
+  height: 100px;
+  background-color: #e579e6;
+}
+
+/* struttura */
+
 header, footer, .section-top, .section-bottom{
   width: 80%;
   margin: auto;
   margin-bottom: 20px;
 }
 
-header{
-  height: 100px;
-  background-color: #e579e6;
-}
+/* struttura superiore */
 
 .section-top{
   height: 400px;
   background-color: #e1d67a;
 }
+
+/* struttura inferiore */
 
 .section-bottom{
   height: 700px;
@@ -61,9 +67,11 @@ main .section-bottom .right{
   float: left;
 }
 
+/* chiusura */
 
 footer{
   height: 80px;
+  margin-bottom: 0;
   background-color: #8801fe;
 }
 
