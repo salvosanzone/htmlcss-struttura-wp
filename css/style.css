@@ -68,6 +68,24 @@ header, footer, .section-top, .section-bottom{
   background-size: cover;
 }
 
+.layover{
+  width: 100%;
+  height: 100%;
+  padding-top: 23%;
+  background-color: rgba(0, 0,0, 0.2);
+}
+
+.text-section-top{
+  color: #ffffff;
+  width: 50%;
+  margin-left: 70px;
+  background-position: center;
+}
+
+.text-top{
+  font-size: 34px;
+}
+
 /* struttura inferiore */
 
 .section-bottom{
