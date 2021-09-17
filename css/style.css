@@ -66,6 +66,7 @@ header, footer, .section-top, .section-bottom{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  border-radius: 15px;
 }
 
 .layover{
@@ -73,30 +74,39 @@ header, footer, .section-top, .section-bottom{
   height: 100%;
   padding-top: 23%;
   background-color: rgba(0, 0,0, 0.2);
+  border-radius: 15px;
 }
 
 .text-section-top{
-  color: #ffffff;
+  color: white;
   width: 50%;
   margin-left: 70px;
   background-position: center;
 }
 
 .text-top{
-  font-size: 34px;
+  font-size: 39px;
 }
 
 /* struttura inferiore */
 
 .section-bottom{
   height: 700px;
-  background-color: #0186fe;
 }
 
 main .section-bottom .sb-top{
   width: 100%;
   height: 90px;
-  background-color: #abcfe7;
+}
+
+h2{
+  font-size: 40px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+h4{
+ color: #dadada;
 }
 
 .float{
@@ -107,10 +117,24 @@ main .section-bottom .sb-left{
   width: 20%;
   height: 570px;
   margin-right: 2%;
-  background-color: #abcfe7;
   margin: 2% 0 2% 0;
 
 }
+
+.layover-sb-left{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0,0, 0.2);
+}
+
+.sb-left-pic{
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 15px;
+}
+
 
 main .section-bottom .sb-center{
   width: 56%;
